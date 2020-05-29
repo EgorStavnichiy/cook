@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсовая</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo">
+                <img src="image/134.png" width="130" height="350" class="center-img" alt="">
+            </a>
+            <div class="header_burger">
+                <span></span>
+            </div>
+            <div class="main-navigation-wrapper">
+                <div class="container">
+                    <ul class="site-navigation">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="jap.html">Японская кухня</a></li>
+                        <li><a href="rus.html">Русская кухня</a></li>
+                        <li><a href="itl.html">Итальянская кухня</a></li>
+                        <li><a href="candy.html">Десерты</a></li>
+                        <li><a href="bakery.html">Выпечка</a></li>
+
+                        <!--<li class="user-navigation">
+                            <a class="login-link" href="login.html">
+                                Войти
+                            </a>
+                        </li>-->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="conteiner">
+        <h1 class="visually-hidden">
+            Готовить может каждый!</h1>
+        <section class="features">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>Быстро</h3>
+                    <p>Это был мой первый кулинарный опыт. Интересно, сколько надо жарить рыбу? Ответ пришел сам: если
+                        хорошо проголодаться, как и сколько ни жарь — все равно вкусно!</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Вкусно</h3>
+                    <p>Умение искусно сервировать и красиво подавать на стол — не менее важная процедура, чем само
+                        приготовление.</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Недорого</h3>
+                    <p>Не откладывай до ужина того, что можешь съесть за обедом.</p>
+                </li>
+            </ul>
+        </section>
+        <div class="index-columns">
+            <section class="news">
+                <h2>Новости</h2>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <p>Звезда Мишлен – высшая награда ресторана. Уже более 100 лет рестораны борются за самый
+                            престижный знак отличия – звезда Michelin.</p>
+                        <time datetime="2020-05-05">5 мая</time>
+                    </li>
+                    <li class="news-item">
+                        <p>Кухонный комбайн «Суперкухня» 4 в 1 со скидкой -70 %! Он не только заменяет целых 4 отдельных
+                            предмета:
+                            тёрку, десертницу, измельчитель и соковыжималку.</p>
+                        <time datetime="2020-05-04">4 мая</time>
+                    </li>
+                </ul>
+                <a class="button" href="https://kedem.ru/news/">Все новости</a>
+            </section>
+
+            <section class="gallery">
+                <h2>Фотогалерея</h2>
+                <!--<div class="gallery-container">
+                    <figure class="gallery-content">
+                        <div class="slides">
+                            <img class="slides-item" src="image/eda.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda2.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda3.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda4.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda5.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda6.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda7.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda8.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda9.jpg" width="286" height="164" alt="">
+                            <img class="slides-item" src="image/eda10.jpg" width="286" height="164" alt="">
+                        </div>
+                        <div class="buttons-block">
+                            <div id="left-button"></div>
+                            <div id="right-button"></div>
+                        </div>
+                        <div class="dots-block">
+                            <div class="dots-item active"></div>
+                            <div class="dots-item"></div>
+                            <div class="dots-item"></div>
+                        </div>
+                    </figure>
+                </div>
+        </div>-->
+
+                <!--Основа слайдера-->
+                <div class="wrapper">
+                    <input type="radio" name="point" id="slide1" checked>
+                    <input type="radio" name="point" id="slide2">
+                    <input type="radio" name="point" id="slide3">
+                    <input type="radio" name="point" id="slide4">
+                    <input type="radio" name="point" id="slide5">
+                    <div class="slider">
+                        <div class="slides slide1"></div>
+                        <div class="slides slide2"></div>
+                        <div class="slides slide3"></div>
+                        <div class="slides slide4"></div>
+                        <div class="slides slide5"></div>
+                    </div>
+                    <div class="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                    </div>
+                </div>
+                <!--Основа слайдера-->
+            </section>
+        </div>
+        <div class="index-columns">
+            <section class="contacts">
+                <h2>Контактная информация</h2>
+                <p>
+                    Адресс: г.Тирасполь пер.Раевского 6<br>
+                    Телефон: +373-778-40-900
+                </p>
+                <a class="button contacts-button-map" href="contacts.html">Карта</a>
+
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-contacts">
+                Адресс: г.Тирасполь пер.Раевского 6<br>
+                Телефон: +373-778-40-900
+            </p>
+            <div class="footer-social">
+                <p>Давайте дружить</p>
+                <ul>
+                    <li><a class="social-button" href="https://vk.com/"><span class="visually-hidden">Вконтакте</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.581 15.997c.304 0 .429-.204.425-.458-.016-.958.356-1.474 1.03-.802.744.744.896 1.26 1.801 1.26h1.601c.403 0 .562-.13.562-.334 0-.432-.711-1.194-1.312-1.752-.844-.783-.882-.802-.156-1.744.9-1.169 2.079-2.667 1.037-2.667h-1.991c-.387 0-.414.217-.551.542-.498 1.173-1.443 2.693-1.803 2.461-.377-.243-.204-1.203-.175-2.63.008-.377.006-.636-.571-.77-.314-.073-.621-.103-.903-.103-1.137 0-1.922.477-1.477.56.785.146.711 1.846.527 2.58-.319 1.278-1.518-1.012-2.018-2.152-.12-.275-.155-.488-.586-.488h-1.627c-.247 0-.394.08-.394.258 0 .301 1.479 3.36 2.892 4.885 1.379 1.487 2.742 1.354 3.689 1.354z" />
+                            </svg>
+                        </a></li>
+                    <li><a class="social-button"
+                            href="https://www.facebook.com/?stype=lo&jlou=Afd9zmyKejG56STQGiUr7BC4GNMVeJNrMLHpfyw-jKhzXfCgDGk6NnYKEOXOBXtROciFO6l8ksfWfckRu54FTXeOgh5PkCowOS4zazRb6q0jWw&smuh=57146&lh=Ac-I9IROsOBLSON_"><span
+                                class="visually-hidden">Фэйсбук</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z" />
+                            </svg>
+                        </a></li>
+                    <li><a class="social-button" href="https://www.instagram.com/"><span
+                                class="visually-hidden">Инстаграм</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z" />
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <section class="modal modal-login">
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-login modal-show">
+        <!--<h2>Личный кабинет</h2>
+        <p class="modal-desciption">Введите свой логин и пароль</p>
+        <form class="login-form" action="https://htmlacademy.ru/study" method="POST">
+            <p>
+                <label class="vissually-hidden" for="user-login">Логин</label>
+                <input class="login-icon-user" id="user-login" type="email" name="login" placeholder="email@example.com"
+                    required>
+            </p>
+            <p>
+                <label class="vissually-hidden" for="user-password">Пароль</label>
+                <input class="login-icon-password" id="user-password" type="password" name="password"
+                    placeholder="**********" required>
+            </p>
+        <p class="login-help">
+            <label class="login-checkbox">-->
+        <input type="checkbox" name="remember" class="visually-hidden">
+        <!--<span class="checkbox-indicator"></span>
+        Запомнить
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">
+            <span class="visually-hidden">Закрыть</span>
+        </button>-->
+    </section>
+    <style>
+        .modal {
+            display: none;
+        }
+
+        @keyframes bounse {
+            0% {
+                transform: translateY(-2000px);
+            }
+
+            70% {
+                transform: translateY(30px);
+            }
+
+            90% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translate(0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: translate(-10px);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: translate(10px);
+            }
+        }
+
+        .modal-error {
+            animation-name: shake;
+            animation-duration: 0.6s;
+        }
+
+        .modal-show {
+            display: block;
+            animation-name: bounce;
+            animation-duration: 0.6s;
+        }
+    </style>
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Обратная связь</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2729.3206197209174!2d29.582662215593782!3d46.83737797914109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c903a89c65e49d%3A0xe6eaaafcb0eb5f2b!2zUmF5ZXZza3kgTG4gNiwgVGlyYXNwb2wsINCc0L7Qu9C00LDQstC40Y8!5e0!3m2!1sru!2s!4v1590438798051!5m2!1sru!2s"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        <button class="modal-close" type="button">
+            <span class="visually-hidden">Закрыть</span>
+        </button>
+    </section>
+
+
+    <script>
+        var link = document.querySelector(".login-link");
+        var popup = document.querySelector(".modal-login");
+        var form = popup.querySelector("form");
+        var close = document.querySelector(".modal-close");
+        var login = popup.querySelector("[name=login]");
+        var password = popup.querySelector("[name=password]");
+        var storage = localStorage.getItem("login");
+
+        /*Карта*/
+        var button = document.querySelector(".contacts-button-map");
+        var popup = document.querySelector(".modal-map");
+        var mapLink = document.querySelector(".contacts-button-map");
+        var mapPopup = document.querySelector(".modal-map");
+        var mapClose = mapPopup.querySelector(".modal-close");
+
+        mapLink.addEventListener("click", function (evt) {
+            evt.preventDefault();
+            mapPopup.classList.add("modal-show");
+        });
+        mapClose.addEventListener("click", function (evt) {
+            evt.preventDefault();
+            mapPopup.classList.remove("modal-show");
+        });
+        window.addEventListener("keydown", function (evt) {
+            if (evt.keyCode === 27) {
+                if (popup.classList.contains("modal-show")) {
+                    evt.preventDefault();
+                    popup.classList.remove("modal-show");
+                    popup.classList.remove("modal-error");
+
+                }
+            }
+        });
+
+        /*Карта*/
+
+        var isStorageSupport = true;
+        var storage = "";
+
+        try {
+            storage = localStorage.getItem("login");
+        } catch (err) {
+            isStorageSupport = false;
+        }
+
+        link.addEventListener("click", function (evt) {
+            evt.preventDefault();
+            popup.classList.add("modal-show");
+
+            login.focus();
+            if (storage) {
+                login.value = storage;
+                password.focus();
+            } else {
+                login.focus();
+            }
+        });
+
+        form.addEventListener("submit", function (evt) {
+            if (!login.value || !password.value) {
+                evt.preventDefault();
+                popuo.classList.remove("modal-error")
+                popup.classList.add("modal-error");
+                popup.offsetWidth = popup.offsetWidth;
+            } else {
+                if (isStorageSupport) {
+                    localStorage.setItem("login", login.value);
+                }
+            }
+        });
+
+
+        close.addEventListener("click", function (evt) {
+            evt.preventDefault();
+            popup.classList.remove("modal-show");
+            popup.classList.remove("modal-error");
+        });
+
+        window.addEventListener("keydown", function (evt) {
+            if (evt.keyCode === 27) {
+                if (popup.classList.contains("modal-show")) {
+                    evt.preventDefault();
+                    popup.classList.remove("modal-show");
+                    popup.classList.remove("modal-error");
+
+                }
+            }
+        });
+
+    </script>
+</body>
+
+</html>

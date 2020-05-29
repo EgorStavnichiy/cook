@@ -1,0 +1,650 @@
+body{
+    min-width: 960px;
+    margin :0;
+    padding:0;
+    font-family:'Times New Roman';
+    font-size:14px;
+    line-height:24px;
+    font-weight:700;
+    color:white;
+    text-transform: uppescase;
+
+    background-color: #000000;
+    background-image: url("image/япония.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    background-size: contain;
+}
+.inner-page{
+    color: white;
+
+    background-color: #f9f6f3;
+   
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.inner-content{
+    margin-bottom: 75px;
+    margin-left: 40px;
+}
+.inner-content h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+    line-height: 30px;
+}
+.inner-content h3{
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    font-size: 30px;
+    line-height: 24px;
+}
+.inner-content h2+h3{
+    margin-top: 30px;
+}
+.inner-content p{
+    margin: 14px 0;
+    font-size: 18px;
+    margin-right: 40px;
+    text-shadow: 4px 6px 7px #000000;
+}
+.inner-content ul{
+    font-size: 18px;
+
+}
+.inner-content .big-heading{
+    display: flex;
+    align-items: center;
+
+    margin-top: 55px;
+    margin-bottom: 65px;
+    margin-right: 40px;
+    text-shadow: 4px 6px 7px #000000;
+
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+
+    background: rgb(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+.big-heading::before,
+.big-heading::after{
+    content: "";
+
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    width: 50px;
+    height: 2px;
+
+    background: white;
+}
+.big-heading::before{
+    margin-right: 25px;
+}
+.big-heading::after{
+    margin-left: 25px;
+}
+.custom-list-1{
+    margin: 14px 0;
+    padding: 0;
+
+    list-style: none;
+}
+.custom-list-1 li{
+    position: relative;
+
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.custom-list-1 li::before {
+    content: "";
+
+    position: absolute;
+    top: 8px;
+    left: 0;
+
+    width: 8px;
+    height: 8px;
+
+    background-color: #000000;
+    transform: rotate(45deg);
+}
+.inner-columns{
+    
+    margin: 60px 0;
+    margin-left: 20px;
+    margin-right: 800px;
+
+    outline: 3px solid black;
+    outline-offset: 2px;
+}
+.inner-column-left{
+    margin-right: 800px;
+}
+.inner-column-right{
+    margin-right: 800px;
+}
+.main-footer{
+    padding: 60px 0;
+    margin-top: 65px;
+
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url("image/Creative_Wallpaper_Black_wood_021744_.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.inner-page .main-footer{
+    margin-top: 45px;
+    background-image:
+    linear-gradient(to bottom, black, transparent),
+    url("image/Creative_Wallpaper_Black_wood_021744_.jpg");
+    background-size: 10px 40px, auto;
+    background-position: 0 0;
+    background-repeat: repeat-x, repeat;
+}
+.inner-page-container{
+    margin-left: 40px;
+}
+.breadcrumbs{
+    font-size: 18px;
+    
+}
+a{
+    text-decoration: none;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.footer-copyright{
+    text-align: center;
+    
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus{
+ color: #000000;
+background-color: #ffffff;
+}
+.footer-contacts a{
+    color: #ffffff;
+    text-decoration: underline;
+    }
+    .footer-contacts a:hover,
+    .footer-contacts a:focus{
+    text-decoration: none;
+}
+.footer-social{
+    text-align: center;
+    }
+    .footer-social ul{
+    list-style: none;
+    }
+    .sosial-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43px;
+        height: 43px;
+        margin-bottom: 10px;
+
+        background-color: #000000 ;
+    }
+    .social-button{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .sosial-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43px;
+        height: 43px;
+        margin-bottom: 10px;
+    
+        background-color: #000000 ;
+    }
+    
+    .social-button{
+    color: #ffffff;
+    }
+    .footer-copyright{
+        text-align: center;
+        
+    }
+    .footer-copyright .button:hover,
+    .footer-copyright .button:focus{
+     color: #000000;
+    background-color: #ffffff;
+    }
+    
+    a{
+        text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .visually-hidden:not(:focus):not(:active),
+        input [type="checkbox"].visually-hidden,
+        input [type="radio"].visually-hidden{
+            position: absolute;
+    
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+    
+            white-space: nowrap;
+    
+            clip-path: inset(100%);
+            clip:rect(0 0 0 0);
+            overflow: hidden;
+        }
+    .button{
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
+    
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+            
+    background-color: #000000;
+    border: none;
+    }
+    .button:hover,
+    .button:focus,
+    .button:active{
+    background-color: #663d15;
+    }
+    .button.disabled,
+    .button:disabled{
+        cursor: default;
+        opacity: 0.5;
+        background-color: black;
+    }
+    .main-navigation{
+            font-size: 18px;
+            line-height: 20px;
+            color: #ffffff;
+            
+            background-color: black;
+    }
+    .site-navigation,
+    .user-navigation{
+        list-style: none;
+    }
+    .site-navigation a,
+    .user-navigation a{
+        display: block;
+        padding: 25px 10px;
+        
+        
+        color:yellowgreen;
+        text-shadow: 1px 1px 2px black
+    }
+    .site-navigation a:hover,
+    .site-navigation a:focus,
+    .user-navigation a:hover,
+    .user-navigation a:focus{
+    background-color: #242424;
+    }
+    .user-navigation .login-link {
+        position: relative;
+        padding-left: 50px;
+        
+    }
+    .login-link::before {
+        content: "";
+    
+        position: absolute;
+        top: 27px;
+        left: 24px;
+    
+        width: 16px;
+        height: 18px;
+    
+        background-image: url(image/enter.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    
+        opacity: 0.3;
+    }
+    .login-link:hover::before,
+    .login-link:focus::before,
+    .login-link:active::before{
+        opacity: 1;
+    }
+     .container{
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+    
+    
+    .main-footer {
+        color: white;
+        background-color: #212121;
+        background-image: url(image/grey.jpg);
+        background-position: 0 0;
+        background-repeat: repeat;
+    }
+    .footer-contacts a{
+        color: #ffffff;
+        text-decoration: underline;
+        }
+        .footer-contacts a:hover,
+        .footer-contacts a:focus{
+        text-decoration: none;
+    }
+    .footer-social{
+        text-align: center;
+        }
+        .footer-social ul{
+        list-style: none;
+        }
+        .sosial-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 43px;
+            height: 43px;
+            margin-bottom: 10px;
+    
+            background-color: #000000 ;
+        }
+        .social-button{
+        color: #ffffff;
+        }
+        .footer-copyright{
+            text-align: center;
+            
+        }
+        .footer-copyright .button:hover,
+        .footer-copyright .button:focus{
+         color: #000000;
+        background-color: #ffffff;
+        }
+        .modal{
+        position: fixed;
+    
+         color: #000000;
+                
+        background-color: #f8f3f0;
+        background-image: url(image/248752_s.jpg);
+        width: 100%;
+        background-position: 0 0;
+        background-repeat: repeat;
+        box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+        }
+        .modal h2{
+                margin: 0;
+                margin-bottom: 20px;
+        font-size: 30px;
+         line-height: 42px;
+        }
+        .modal-login{
+        text-align: center;
+        top: 120px;
+        left: 50%;
+    
+        display: none;
+    
+        width: 300px;
+        margin-left: -230px;
+        height: 50px 80px;
+        padding: 25px;
+        font-size: 16px;
+        
+        }
+        .modal-close{
+        position: absolute;
+        top: 0;
+        right: -34px;
+    
+        width: 22px;
+        height: 22px;
+    
+        background-color: transparent;
+        border: 0;
+    
+        cursor: pointer;
+        }
+        .modal-close::before,
+        .modal-close::after{
+        content: "";
+    
+        position: absolute;
+        top: 10px;
+        left: 2px;
+    
+        width: 19px;
+        height: 3px;
+    
+        background-color: #2F4F4F;    
+        }
+        .modal-close::before{
+        transform: rotate(45deg);
+        }
+        .modal-close::after{
+         transform: rotate(-45deg);
+        }
+        
+        .modal-description{
+            margin: 0;
+            margin-bottom: 10px; 
+        }
+        .login-form p{
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .login-form input [type="text"],
+        .login-form input [type="password"]{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px 15px;
+            padding-right: 40px;
+            font: inherit;
+            color: #000000;
+            text-transform: uppercase;
+    
+            background-color: #f9f6f3;
+            border: 2px solid #000000;
+        }
+        .login-form input:focus{
+            border-color: #663d15;
+        }
+        .login-form .login-help{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+        .login-checkbox{
+            position: relative;
+    
+            padding-left: 30px;
+    
+            cursor: pointer;
+        }
+        .login-checkbox input [type="checkbox"] + .checkbox-indicator{
+            position: absolute;
+            top: 0;
+            left: 0;
+    
+            width: 17px;
+            height: 17px;
+    
+            border: 2px solid #000000;
+        }
+        .restore{
+            color: #000000;
+            text-decoration: underline;
+        }
+        .restore:hover,
+        .restore:focus{
+            text-decoration: none;
+        }
+        .login-form .button{
+            width: 100%;
+            margin-right: 0;
+        }
+        .modal-map{
+            top:50%;
+            left: 50%;
+    
+            display: none;
+    
+            width: 766px;
+            height: 400px;
+            margin-top: -280px;
+            margin-left: -390px;
+        }
+        .modal-map p{
+            margin: 0;
+        }
+        .main-header{
+        margin-bottom: 75px;
+        /*Временно для сетки */
+        min-width: 285px;
+        }
+        .main-navigation{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /*Временно для сетки */
+            min-width: 285px;
+            background-color: transparent;
+        }
+        .main-navigation-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-header-logo{
+           order: 2;
+           width: 368px;
+           height: 153px;
+           
+           /*Временно для сетки */
+           /*display: block;*/
+        }
+        .main-navigation-wrapper{
+            width: 100%;
+            margin-bottom: 60px;
+            background-color: #000000;
+    
+            /*Временно для сетки */
+            min-height: 70px;
+            background-color: transparent;
+        }
+    
+        .site-navigation{
+            display: flex;
+            flex-wrap: wrap;
+            width: 1000px;
+    
+            margin: 0;
+            padding: 0;
+            margin-left: 10px;
+            margin-right: 150px;
+    
+            list-style: none;
+    
+            /*Временно для сетки */
+            min-height: 70px;
+        }
+        .site-navigation li{
+            font-size: 20px;
+            margin-left: 25px;
+        }
+    
+        .user-navigation{
+            display: flex;
+            width: 140px;
+            margin: 0;
+            padding: 0;
+    
+            list-style: none;
+    
+             /*Временно для сетки */
+             min-height: 70px;
+        }
+        
+        
+        .contacts{
+            width:380px;
+            /*Временно для сетки */
+            min-width: 150px;
+        }
+        .contacts p{
+            margin: 0;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+        .main-footer{
+            padding: 60px 0;
+            margin-top: 65px;
+    
+            /*Временно для сетки */
+            
+            min-height: 180px;
+        }
+        .main-footer .container{
+            display: flex;
+        }
+        .footer-contacts{
+            width: 320px;
+            margin: 0;
+            margin-right: 80px;
+    
+             /*Временно для сетки */
+             min-height: 100px;
+        }
+        .footer-social{
+            width: 145px;
+    
+        }
+        .footer-social ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 141px;
+            margin: 0 auto;
+            padding: 0;
+    
+            list-style: none;
+        }
+        .sosial-button:hover,
+        .sosial-button:focus{
+            background-color: #ffffff;
+        }
+        .sosial-button:hover path,
+        .sosial-button:focus path{
+            fill: #000000;
+        }
+        .footer-social b {
+            display: block;
+            margin-bottom: 15px;
+        }
+        .center-img {
+      display: block;
+      margin: 0 auto;
+    } 
+   
